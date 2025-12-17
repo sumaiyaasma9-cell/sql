@@ -1,1 +1,16 @@
-https://github.com/sumaiyaasma9-cell/sql.git
+CREATE DATABASE EDGEICT;
+USE EDGEICT;
+
+CREATE TABLE STUDENT (
+  ID INT,
+  Name VARCHAR(30),
+  Department VARCHAR(10),
+  GPA DECIMAL(4,2)
+);
+
+INSERT INTO STUDENT VALUES
+(101, 'Raju', 'CPS', 3.60),
+(102, 'Rubel', 'CSE', 3.80),
+(103, 'Rifat', 'ICT', 3.20),
+(104, 'Rahman', 'EEE', 3.95),
+(105, 'Rony', 'BGE', 2.95);
